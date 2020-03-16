@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Electronic Circuit",
+    "internalName": "electronic-circuit",
+    "category": "materials",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 1,
+    "materials": [
+      { "internalName": "iron-plate", "quantity": 1 },
+      { "internalName": "copper-cable", "quantity": 3 }
+    ]
+  },
+  {
+    "name": "Iron plate",
+    "internalName": "iron-plate",
+    "category": "materials",
+    "prodMethod": "furnace",
+    "prodTime": 3.2,
+    "quantity": 1,
+    "materials": [{ "internalName": "iron-ore", "quantity": 1 }]
+  },
+  {
+    "name": "Iron Ore",
+    "internalName": "iron-ore",
+    "category": "materials",
+    "prodMethod": "mining",
+    "prodTime": 1,
+    "quantity": 1,
+    "materials": []
+  },
+  {
+    "name": "Copper Cable",
+    "internalName": "copper-cable",
+    "category": "materials",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 2,
+    "materials": [{ "internalName": "copper-plate", "quantity": 1 }]
+  },
+  {
+    "name": "Copper Plate",
+    "internalName": "copper-plate",
+    "category": "materials",
+    "prodMethod": "furnace",
+    "prodTime": 3.2,
+    "quantity": 1,
+    "materials": [{ "internalName": "copper-ore", "quantity": 1 }]
+  },
+  {
+    "name": "Copper Ore",
+    "internalName": "copper-ore",
+    "category": "materials",
+    "prodMethod": "mining",
+    "prodTime": 1,
+    "quantity": 1,
+    "materials": []
+  }
+]
