@@ -55,5 +55,141 @@
     "prodTime": 1,
     "quantity": 1,
     "materials": []
+  },
+  {
+    "name": "Iron Gear Wheel",
+    "internalName": "iron-gear-wheel",
+    "category": "materials",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 1,
+    "materials": [{ "internalName":"iron-plate", "quantity":2 }]
+  },
+  {
+    "name": "Convoyeur",
+    "internalName": "transport-belt",
+    "category": "machine",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 2,
+    "materials": [
+      { "internalName":"iron-plate", "quantity":1 },
+      { "internalName":"iron-gear-wheel", "quantity":1 }
+    ]
+  },
+  {
+    "name": "Burner inserter",
+    "internalName": "burner-inserter",
+    "category": "machine",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 1,
+    "materials": [
+      { "internalName":"iron-plate", "quantity":1 },
+      { "internalName":"iron-gear-wheel", "quantity":1 }
+    ]
+  },
+  {
+    "name": "Automation Science Pack",
+    "internalName": "automation-science-pack",
+    "category": "materials",
+    "prodMethod": "crafting",
+    "prodTime": 5,
+    "quantity": 1,
+    "materials": [
+      { "internalName":"copper-plate", "quantity":1 },
+      { "internalName":"iron-gear-wheel", "quantity":1 }
+    ]
+  },
+  {
+    "name": "Inserter",
+    "internalName": "inserter",
+    "category": "machine",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 1,
+    "materials": [
+      { "internalName":"iron-plate", "quantity":1 },
+      { "internalName":"iron-gear-wheel", "quantity":1},
+      { "internalName":"electronic-circuit", "quantity":1}
+    ]
+  },
+  {
+    "name": "Logistic Science Pack",
+    "internalName": "logistic-science-pack",
+    "category": "materials",
+    "prodMethod": "crafting",
+    "prodTime": 6,
+    "quantity": 1,
+    "materials": [
+      { "internalName":"inserter", "quantity":1 },
+      { "internalName":"transport-belt", "quantity":1 }
+    ]
+  },
+  {
+    "name": "Stone",
+    "internalName": "stone",
+    "category": "materials",
+    "prodMethod": "mining",
+    "prodTime": 1,
+    "quantity": 1,
+    "materials": []
+  },
+  {
+    "name": "Stone Furnace",
+    "internalName": "stone-furnace",
+    "category": "machine",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 1,
+    "materials": [ 
+      { "internalName":"stone", "quantity":5 }
+    ]
+  },
+  {
+    "name": "Stone Brick",
+    "internalName": "stone-brick",
+    "category": "materials",
+    "prodMethod": "furnace",
+    "prodTime": 3.2,
+    "quantity": 1,
+    "materials": [ 
+      { "internalName":"stone", "quantity":2 }
+    ]
+  },
+  {
+    "name": "Stone Furnace",
+    "internalName": "stone-furnace",
+    "category": "machine",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 1,
+    "materials": [ 
+      { "internalName":"stone", "quantity":5 }
+    ]
+  },
+  {
+    "name": "Pipe",
+    "internalName": "pipe",
+    "category": "machine",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 1,
+    "materials": [ 
+      { "internalName":"iron-plate", "quantity":1 }
+    ]
+  },
+  {
+    "name": "Pipe To Ground",
+    "internalName": "pipe-to-ground",
+    "category": "transport",
+    "prodMethod": "crafting",
+    "prodTime": 0.5,
+    "quantity": 2,
+    "materials": [ 
+      { "internalName":"iron-plate", "quantity":5 },
+      { "internalName":"pipe", "quantity":10 }
+    ]
   }
+
 ]
